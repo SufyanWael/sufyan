@@ -1,0 +1,85 @@
+{
+    "personalInfo": {
+      "name": "Sufyan Wael",
+      "title": "Full-Stack Developer"
+    },
+    "about": {
+      "bio": "I am a results-driven Full-Stack Developer with a passion for creating clean, efficient, and user-centric web applications. My journey into tech began with a deep curiosity for how things work, which quickly evolved into a career focused on building robust digital solutions. I honed my skills in modern technologies like React, Node.js, and Python during my intensive training with the Digital Egypt Pioneers Initiative (DEPI). I thrive in environments that challenge me to learn and adapt, and I am dedicated to writing high-quality code that solves real-world problems and delivers measurable value."
+    },
+    "skills": {
+      "technical": [
+        {
+          "category": "Frontend",
+          "items": ["HTML5", "CSS", "JavaScript", "React"]
+        },
+        {
+          "category": "Backend",
+          "items": ["Node.js", "C#"]
+        },
+        {
+          "category": "Databases",
+          "items": ["SQL", "Database Design & Optimization"]
+        },
+        {
+          "category": "APIs",
+          "items": ["RESTful API Development & Integration"]
+        },
+        {
+          "category": "Tools & Methods",
+          "items": ["Git", "GitHub", "Agile Methodologies", "VS Code"]
+        }
+      ],
+      "soft": [
+        "Problem-Solving",
+        "Collaboration & Teamwork",
+        "Communication",
+        "Time Management"
+      ]
+    },
+    "experience": [
+      {
+        "position": "Full-Stack Developer Trainee",
+        "company": "DEPI - Digital Egypt Pioneers Initiative",
+        "dates": "Jul 2025 - Dec 2025",
+        "description": [
+          "Completed an intensive training program focused on modern Full-Stack development.",
+          "Gained hands-on experience with React, Node.js, C#, HTML, SQL, JavaScript, CSS.",
+          "Developed and deployed end-to-end web applications in a simulated real-world environment.",
+          "Collaborated in an Agile team, practicing version control with Git and GitHub."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Business Data Visualization Dashboard",
+        "description": "A responsive web application that visualizes complex business data, helping users track Key Performance Indicators (KPIs) and gain actionable insights through interactive charts and graphs.",
+        "features": [
+          "Interactive data visualization (charts, graphs).",
+          "Advanced filtering by date and category.",
+          "User authentication and role-based access."
+        ],
+        "technologies": ["React", "Chart.js", "SQL", "REST API"]
+      },
+      {
+        "name": "TeamFlow - Task Management Platform",
+        "description": "A collaborative platform designed to help teams organize, track, and manage their projects and tasks efficiently. Inspired by tools like Trello and Asana.",
+        "features": [
+          "Create projects, task boards, and to-do lists.",
+          "Assign tasks to team members and set deadlines.",
+          "Real-time updates and notifications."
+        ],
+        "technologies": ["React", "Node.js", "Express.js", "SQL", "WebSockets"]
+      },
+      {
+        "name": "E-Commerce Storefront",
+        "description": "A clean and modern frontend for an e-commerce store, focusing on providing a seamless and enjoyable shopping experience for customers.",
+        "features": [
+          "Product listing with search and filtering capabilities.",
+          "Detailed product pages.",
+          "A fully functional shopping cart.",
+          "Responsive design for mobile and desktop."
+        ],
+        "technologies": ["HTML", "CSS", "React", "Context API"]
+      }
+    ]
+  }
