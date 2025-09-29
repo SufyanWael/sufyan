@@ -36,6 +36,33 @@
         "Time Management"
       ]
     },
+    "services": [
+      {
+        "title": "Web Development",
+        "description": "Building modern, responsive, and user-friendly websites using HTML, CSS, JavaScript, and React.",
+        "icon": "🌐"
+      },
+      {
+        "title": "Full Stack Solutions",
+        "description": "Developing complete applications with front-end, back-end, and database integration.",
+        "icon": "⚡"
+      },
+      {
+        "title": "API Development & Integration",
+        "description": "Creating and connecting RESTful APIs for seamless data exchange.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Database Management",
+        "description": "Designing and optimizing SQL databases for scalable applications.",
+        "icon": "🗄️"
+      },
+      {
+        "title": "Freelance Projects",
+        "description": "Delivering tailored solutions for clients with a focus on quality and deadlines.",
+        "icon": "💼"
+      }
+    ],
     "experience": [
       {
         "position": "Full-Stack Developer Trainee",
