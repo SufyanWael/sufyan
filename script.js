@@ -129,7 +129,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for animation
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('.skill-category, .project-card, .timeline-item, .stat, .about-bio');
+    const animatedElements = document.querySelectorAll('.skill-category, .project-card, .timeline-item, .stat, .about-bio, .service-card');
     animatedElements.forEach(el => observer.observe(el));
 });
 
@@ -224,6 +224,22 @@ document.addEventListener('DOMContentLoaded', () => {
         
         card.addEventListener('mouseleave', () => {
             card.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+});
+
+// Add enhanced hover effects to service cards
+document.addEventListener('DOMContentLoaded', () => {
+    const serviceCards = document.querySelectorAll('.service-card');
+    serviceCards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'translateY(-15px) scale(1.03)';
+            card.style.boxShadow = '0 25px 50px rgba(0, 255, 136, 0.2)';
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'translateY(0) scale(1)';
+            card.style.boxShadow = '0 20px 40px rgba(0, 255, 136, 0.1)';
         });
     });
 });
@@ -330,6 +346,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach((card, index) => {
         card.style.animationDelay = `${index * 0.2}s`;
+    });
+});
+
+// Add stagger animation for service cards
+document.addEventListener('DOMContentLoaded', () => {
+    const serviceCards = document.querySelectorAll('.service-card');
+    serviceCards.forEach((card, index) => {
+        card.style.animationDelay = `${index * 0.15}s`;
     });
 });
 
@@ -481,3 +505,4 @@ rippleStyle.textContent = `
     }
 `;
 document.head.appendChild(rippleStyle);
+
