@@ -7,7 +7,7 @@ A modern, responsive portfolio website for Sufyan Wael, a Full-Stack Developer. 
 - **Modern Dark Theme**: Sleek design with #00ff88 green accent color
 - **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
 - **Interactive Animations**: Smooth scroll effects, typing animations, and hover effects
-- **Comprehensive Sections**: About, Skills, Experience, and Projects
+- **Comprehensive Sections**: About, Skills, Services, Experience, and Projects
 - **Contact Form**: Functional contact form with validation
 - **Mobile Navigation**: Hamburger menu for mobile devices
 - **Accessibility**: Keyboard navigation and screen reader support
@@ -18,9 +18,10 @@ A modern, responsive portfolio website for Sufyan Wael, a Full-Stack Developer. 
 1. **Hero**: Introduction with animated typing effect and call-to-action buttons
 2. **About**: Personal bio with animated statistics counters
 3. **Skills**: Technical and soft skills organized by categories
-4. **Experience**: Timeline view of professional experience
-5. **Projects**: Featured projects with detailed descriptions and tech stacks
-6. **Contact**: Contact form and social media links
+4. **Services**: Professional services offered with detailed descriptions
+5. **Experience**: Timeline view of professional experience
+6. **Projects**: Featured projects with detailed descriptions and tech stacks
+7. **Contact**: Contact form and social media links
 
 ## 🛠️ Technologies Used
 
@@ -44,6 +45,28 @@ A modern, responsive portfolio website for Sufyan Wael, a Full-Stack Developer. 
 - Collaboration & Teamwork
 - Communication
 - Time Management
+
+## 💼 Services Offered
+
+1. **Web Development**
+   - Building modern, responsive, and user-friendly websites
+   - Technologies: HTML, CSS, JavaScript, and React
+
+2. **Full Stack Solutions**
+   - Developing complete applications with front-end, back-end, and database integration
+   - End-to-end development services
+
+3. **API Development & Integration**
+   - Creating and connecting RESTful APIs for seamless data exchange
+   - Third-party API integration and custom API development
+
+4. **Database Management**
+   - Designing and optimizing SQL databases for scalable applications
+   - Database architecture and performance optimization
+
+5. **Freelance Projects**
+   - Delivering tailored solutions for clients with a focus on quality and deadlines
+   - Custom development and consultation services
 
 ## 🎯 Projects Featured
 
@@ -154,3 +177,4 @@ Feel free to fork this project and submit pull requests for any improvements.
 ---
 
 Built with ❤️ by Sufyan Wael
+
